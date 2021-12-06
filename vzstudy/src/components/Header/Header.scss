@@ -15,8 +15,19 @@
     color: rgb(156, 103, 38);
     text-align: center;
   }
+
+  &__IconContainer {
+    margin-inline: 25px;
+  }
+
+  &__Part{
+    width: 50%;
+    display: flex;
+  }
 }
 
-section{
-  width: 50%;
+.RightSide {
+  display: block;
+  float: right;
+  padding-right: 50px;
 }

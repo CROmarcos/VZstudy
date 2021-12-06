@@ -5,11 +5,15 @@ import "./Header.scss";
 const Header = () => {
   return (
     <div className="Header">
-      <div>
-        <HomeIcon />
+      <div className="Header__Part">
+        <div className="Header__IconContainer">
+          <HomeIcon />
+        </div>
+        <h1 className="Header__Title">Studiraj u Varaždinu</h1>
       </div>
-      <h1 className="Header__Title">Studiraj u Varaždinu</h1>
-      <Navigation />
+      <div className="Header__Part RightSide">
+        <Navigation />
+      </div>
     </div>
   );
 };
