@@ -1,0 +1,18 @@
+.Main {
+  &-Container {
+    width: 100%;
+
+    @media only screen and (min-width: 1024px) {
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  &-Image {
+    width: 100%;
+
+    @media only screen and (min-width: 1024px){
+        border-radius: 10px;
+    }
+  }
+}

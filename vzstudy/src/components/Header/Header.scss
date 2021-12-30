@@ -21,13 +21,22 @@
   }
 
   &__Part{
-    width: 50%;
+    width: 100%;
     display: flex;
+    
+    @media only screen and (min-width: 1024px){
+      width: 50%;
+    }
   }
 }
 
 .RightSide {
-  display: block;
-  float: right;
-  padding-right: 50px;
+  display: none;
+
+  @media only screen and (min-width: 1024px){
+    width: 50%;
+    display: block;
+    float: right;
+    padding-right: 50px;
+  }
 }

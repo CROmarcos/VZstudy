@@ -1,10 +1,11 @@
+import MainImage from '../components/MainImage/MainImage';
 import Slika from '../slike/foi.jpg'
 
 const Foi=()=>{
     return(
         <div>
             <h1>Fakultet organizacije i informatike</h1>
-            <img src={Slika} alt='FOI'/>
+            <MainImage image={Slika} alt='FOI'/>
         </div>
     );
 }
