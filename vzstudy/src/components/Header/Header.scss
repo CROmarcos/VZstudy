@@ -3,37 +3,75 @@
   height: 20px;
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   background-color: #04326e;
   justify-content: center;
   align-items: center;
 
+  @media only screen and (min-width: 1024px) {
+    padding: 2rem 0;
+  }
+
   &__Title {
     margin: 0;
-    line-height: 1.15;
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: rgb(156, 103, 38);
     text-align: center;
+
+    @media only screen and (min-width: 400px) and (max-width: 1023px) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      font-size: 2rem;
+      line-height: 1.15;
+    }
   }
 
   &__IconContainer {
-    margin-inline: 25px;
+    margin-inline: 10px;
+
+    @media only screen and (min-width: 400px) {
+      margin-inline: 25px;
+    }
   }
 
-  &__Part{
+  &__Part {
     width: 100%;
     display: flex;
-    
-    @media only screen and (min-width: 1024px){
+
+    @media only screen and (min-width: 1024px) {
       width: 50%;
+    }
+  }
+
+  &__Smartphone {
+    @media only screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &__Desktop {
+    display: none;
+
+    @media only screen and (min-width: 1024px) {
+      display: block;
     }
   }
 }
 
 .RightSide {
-  display: none;
+  width: 20%;
+  padding-right: 10px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
 
-  @media only screen and (min-width: 1024px){
+  @media only screen and (min-width: 400px) and (max-width: 1023px){
+    padding-right: 20px;
+  }
+
+  @media only screen and (min-width: 1024px) {
     width: 50%;
     display: block;
     float: right;

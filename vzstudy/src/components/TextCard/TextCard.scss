@@ -1,0 +1,8 @@
+.TextCard {
+    width: 90%;
+    margin: auto;
+
+    @media only screen and (min-width: 1024px){
+        width: 20%;
+    }
+}
