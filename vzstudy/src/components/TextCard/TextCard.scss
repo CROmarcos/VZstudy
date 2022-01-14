@@ -1,8 +1,34 @@
 .TextCard {
     width: 90%;
     margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #04326e;
+    border-width: thin;
+    text-align: left;
 
-    @media only screen and (min-width: 1024px){
-        width: 20%;
+    @media only screen and (min-width: 400px){
+        width: 250px;
+    }
+
+    &__Header {
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid #04326e;
+    }
+
+    &__Title {
+        margin-top: 0;
+        color: #04326e;
+    }
+}
+
+.Info {
+    list-style: none;
+
+    &__Icon {
+        height: 15px;
+        width: fit-content;
     }
 }

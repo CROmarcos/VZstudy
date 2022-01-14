@@ -1,3 +1,5 @@
+import TextCard from "../components/TextCard/TextCard"
+
 const Home=()=>{
     return(
         <div>

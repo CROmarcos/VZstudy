@@ -1,0 +1,32 @@
+.Page {
+    display: block;
+
+    @media only screen and (min-width: 1024px){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__Side {
+        width: 100%;
+        padding: 10px;
+
+        @media only screen and (min-width: 400px) and (max-width: 1023px) {
+            width: 50%;
+        }
+
+        @media only screen and (min-width: 1024px){
+            max-width: 25%;
+            padding-inline: 5px;
+        }
+    }
+
+    &__Center {
+        width: 100%;
+
+        @media only screen and (min-width: 1024px){
+            width: 50%;
+            padding-inline: 10px;
+        }
+    }
+}

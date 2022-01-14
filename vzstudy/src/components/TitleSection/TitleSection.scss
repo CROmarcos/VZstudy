@@ -1,0 +1,22 @@
+.Title {
+    width: 100%;
+    height: auto;
+
+    @media only screen and (min-width: 1024px) {
+      margin-bottom: 40px;
+    }
+}
+
+h1 {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #04326e;
+
+    @media only screen and (min-width: 400px) and (max-width: 1023px) {
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      font-size: 2rem;
+    }
+}

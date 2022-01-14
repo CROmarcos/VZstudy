@@ -1,12 +1,14 @@
 .Main {
-  &-Container {
-    width: 100%;
+  // &-Container {
+  //   width: 100%;
+  //   margin-bottom: 20px;
 
-    @media only screen and (min-width: 1024px) {
-      width: 60%;
-      margin: auto;
-    }
-  }
+  //   @media only screen and (min-width: 1024px) {
+  //     width: 60%;
+  //     margin: auto;
+  //     margin-bottom: 50px;
+  //   }
+  // }
 
   &-Image {
     width: 100%;

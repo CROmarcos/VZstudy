@@ -1,11 +1,12 @@
-import MainImage from '../components/MainImage/MainImage';
+import Page from '../components/Page/Page';
+import TitleSection from '../components/TitleSection/TitleSection';
 import Slika from '../slike/ttf.jpg'
 
 const Ttf=()=>{
     return(
         <div>
-            <h1>Tekstilno-tehnološki fakultet</h1>
-            <MainImage image={Slika} alt='TTF'/>
+            <TitleSection title='Tekstilno-tehnološki fakultet' />
+            <Page image={Slika} alt='TTF' smjerovi={['Tekstilni i modni dizajn (3+2)', 'Tekstilna tehnologija i inženjerstvo (3+2)', 'Tekstilna, odjevna i obućarska tehnologija (PDS)']} web='ttf.unizg.hr' referada='referada@ttf.unizg.hr' adresa='Hallerova aleja 6' />
         </div>
     );
 }
