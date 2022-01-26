@@ -12,7 +12,7 @@
         padding: 10px;
 
         @media only screen and (min-width: 400px) and (max-width: 1023px) {
-            width: 50%;
+            max-width: 50%;
         }
 
         @media only screen and (min-width: 1024px){
@@ -28,5 +28,19 @@
             width: 50%;
             padding-inline: 10px;
         }
+    }
+}
+
+.Tablet {
+    display: none;
+
+    @media only screen and (min-width: 400px) and (max-width: 1023px){
+        display: flex;
+    }
+}
+
+.Desktop {
+    @media only screen and (min-width: 400px) and (max-width: 1023px){
+        display: none;
     }
 }
